@@ -31,7 +31,13 @@ Clerk is a developer-first authentication and user management solution. It provi
 
 After following the quickstart you'll have learned how to:
 
+- Set up a React app with Vite
 - Install `@clerk/clerk-react`
+- Set environment keys
+- Wrap your React app in `<ClerkProvider />`
+- Embed the `<UserButton />` and `<SignInButton />`
+
+<!-- TODO: Include information about the different branches of this repository -->
 
 ## Deploy
 
@@ -51,7 +57,7 @@ To run the example locally, you need to:
 
 2. Go to the [Clerk dashboard](https://dashboard.clerk.com?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-react-quickstart) and create an application.
 
-3. Set the required Clerk environment variables as shown in [the example `env` file](./.env.local.example).
+3. Set the required Clerk environment variables as shown in [the example `env` file](./.env.sample).
 
 4. `npm install` the required dependencies.
 
@@ -68,14 +74,14 @@ To learn more about Clerk and React, check out the following resources:
 
 ## Found an issue?
 
-If you have found an issue with the quickstart, please create an [issue](https://github.com/clerkinc/clerk-react-quickstart/issues).
+If you have found an issue with the quickstart, please create an [issue](https://github.com/clerk/clerk-react-quickstart/issues).
 
 If it's a quick fix, such as a misspelled word or a broken link, feel free to skip creating an issue.  
-Go ahead and create a [pull request](https://github.com/clerkinc/clerk-react-quickstart/pulls) with the solution. :rocket:
+Go ahead and create a [pull request](https://github.com/clerk/clerk-react-quickstart/pulls) with the solution. :rocket:
 
 ## Want to leave feedback?
 
-Feel free to create an [issue](https://github.com/clerkinc/clerk-react-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
+Feel free to create an [issue](https://github.com/clerk/clerk-react-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
 
 ## Connect with us
 
