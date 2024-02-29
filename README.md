@@ -9,17 +9,17 @@
 </p>
 <div align="center">
   <h1>
-    Clerk and React Quickstart 
-  </h1>  
-  <a href="https://www.npmjs.com/package/@clerk/clerk-js">
-    <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/clerk-js" />
+    Clerk and React Quickstart
+  </h1>
+  <a href="https://www.npmjs.com/package/@clerk/clerk-react">
+    <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/clerk-react" />
   </a>
   <a href="https://discord.com/invite/b5rXHjAg7A">
     <img alt="Discord" src="https://img.shields.io/discord/856971667393609759?color=7389D8&label&logo=discord&logoColor=ffffff" />
   </a>
   <a href="https://twitter.com/clerkdev">
     <img alt="Twitter" src="https://img.shields.io/twitter/url.svg?label=%40clerkdev&style=social&url=https%3A%2F%2Ftwitter.com%2Fclerkdev" />
-  </a> 
+  </a>
   <br />
   <br />
   <img alt="Clerk Hero Image" src="./public/hero.png">
@@ -29,26 +29,32 @@
 
 Clerk is a developer-first authentication and user management solution. It provides pre-built React components and hooks for sign-in, sign-up, user profile, and organization management. Clerk is designed to be easy to use and customize, and can be dropped into any React application.
 
-After following the quickstart you'll have learned how to:
+After following the [Clerk React quickstart](https://clerk.com/docs/quickstarts/react), you will have learned how to:
 
-- Set up a React app with Vite
+- Create a new React application using Vite
 - Install `@clerk/clerk-react`
-- Set environment keys
+- Set up your environment keys
+- Import the Clerk Publishable Key
 - Wrap your React app in `<ClerkProvider />`
-- Embed the `<UserButton />` and `<SignInButton />`
+- Use Clerk components to protect your content
+- Embed the `<SignInButton />` and `<SignOutButton />`
+- Deploy your application
 
-<!-- TODO: Include information about the different branches of this repository -->
+### Branches of this repository
+
+- `main`: The result of following the [Clerk React quickstart](https://clerk.com/docs/quickstarts/react).
+- `integrate-react-router-dom-using-data-router`: The result of following the [Add React Router](https://clerk.com/docs/references/react/add-react-router#add-react-router-to-your-clerk-powered-react-application) guide.
 
 ## Deploy
 
 Easily deploy the template to Vercel with the button below. You will need to set the required environment variables in the Vercel dashboard.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fclerkinc%2Fclerk-react-quickstart&env=VITE_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY&envDescription=Clerk%20API%20keys&envLink=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Freact&redirect-url=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Freact)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fclerk%2Fclerk-react-quickstart&env=VITE_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY&envDescription=Clerk%20API%20keys&envLink=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Freact&redirect-url=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Freact)
 
 ## Running the template
 
 ```bash
-git clone https://github.com/clerkinc/clerk-react-quickstart
+git clone https://github.com/clerk/clerk-react-quickstart
 ```
 
 To run the example locally, you need to:
@@ -76,7 +82,7 @@ To learn more about Clerk and React, check out the following resources:
 
 If you have found an issue with the quickstart, please create an [issue](https://github.com/clerk/clerk-react-quickstart/issues).
 
-If it's a quick fix, such as a misspelled word or a broken link, feel free to skip creating an issue.  
+If it's a quick fix, such as a misspelled word or a broken link, feel free to skip creating an issue.
 Go ahead and create a [pull request](https://github.com/clerk/clerk-react-quickstart/pulls) with the solution. :rocket:
 
 ## Want to leave feedback?
