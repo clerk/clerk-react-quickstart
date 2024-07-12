@@ -1,17 +1,21 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react"
+import {
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/clerk-react';
 
 function App() {
-
   return (
     <div>
       <SignedOut>
         <SignInButton />
       </SignedOut>
       <SignedIn>
-        <UserButton afterSignOutUrl="/" />
+        <UserButton />
       </SignedIn>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
