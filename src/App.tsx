@@ -7,14 +7,14 @@ import {
 
 function App() {
   return (
-    <div>
+    <header>
       <SignedOut>
         <SignInButton />
       </SignedOut>
       <SignedIn>
         <UserButton />
       </SignedIn>
-    </div>
+    </header>
   );
 }
 
