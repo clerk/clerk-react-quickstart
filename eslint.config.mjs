@@ -25,4 +25,7 @@ export default [
       'react/react-in-jsx-scope': 'off',
     },
   },
+  {
+    ignores: ['dist/'],
+  },
 ];
