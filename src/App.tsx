@@ -4,10 +4,12 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/clerk-react';
+import UseUser from './UseUser';
 
-function App() {
+export default function App() {
   return (
     <header>
+      <UseUser />
       <SignedOut>
         <SignInButton />
       </SignedOut>
@@ -17,5 +19,3 @@ function App() {
     </header>
   );
 }
-
-export default App;
