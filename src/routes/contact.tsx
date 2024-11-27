@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router'
 
 export default function ContactPage() {
   return (
@@ -6,9 +6,13 @@ export default function ContactPage() {
       <h1>Contact</h1>
       <p>This is a public page meant to contain a contact form and other related contact details.</p>
       <ul>
-        <li><Link to="/">Return to Index</Link></li>
-        <li><Link to="/dashboard">Dashboard</Link></li>
+        <li>
+          <Link to='/'>Return to Index</Link>
+        </li>
+        <li>
+          <Link to='/dashboard'>Dashboard</Link>
+        </li>
       </ul>
     </>
-  );
+  )
 }
