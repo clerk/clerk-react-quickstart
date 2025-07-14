@@ -1,11 +1,11 @@
 import {
-  SignInButton,
   SignedIn,
   SignedOut,
+  SignInButton,
   UserButton,
 } from '@clerk/clerk-react';
 
-function App() {
+export default function App() {
   return (
     <header>
       <SignedOut>
@@ -17,5 +17,3 @@ function App() {
     </header>
   );
 }
-
-export default App;
