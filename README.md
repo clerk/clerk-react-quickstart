@@ -36,14 +36,12 @@ After following the [Clerk React quickstart](https://clerk.com/docs/quickstarts/
 - Set up your environment keys
 - Import the Clerk Publishable Key
 - Wrap your React app in `<ClerkProvider />`
-- Use Clerk components to protect your content
-- Embed the `<SignInButton />` and `<SignOutButton />`
-- Deploy your application
+- Create a header with Clerk components
 
 ### Branches of this repository
 
 - `main`: The result of following the [Clerk React quickstart](https://clerk.com/docs/quickstarts/react).
-- `integrate-react-router-dom-using-data-router`: The result of following the [Add React Router](https://clerk.com/docs/references/react/add-react-router#add-react-router-to-your-clerk-powered-react-application) guide.
+- `integrate-react-router-dom-using-data-router`: A demo of how to add React Router to your React + Clerk application using React Router in [data mode](https://reactrouter.com/start/modes#data).
 
 ## Deploy
 
