@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.37.0",
+    "@clerk/react": "^6.0.0-canary.v20260213162429",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
